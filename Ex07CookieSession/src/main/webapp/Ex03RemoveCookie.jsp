@@ -11,7 +11,7 @@
 		// 쿠키 삭제
 		// 1. 쿠키 다시 생성("name" => 삭제하고 싶은 쿠키와 같은 name으로 지정, "value" => 기존의 값하고 같을 필요는 없다)
 		Cookie cookie = new Cookie("test", "");
-	
+
 		// 2. 만료기간 => 0 (삭제)
 		cookie.setMaxAge(0);
 		

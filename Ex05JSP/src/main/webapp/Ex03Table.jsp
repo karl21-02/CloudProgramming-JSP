@@ -9,9 +9,9 @@
 <body>
 	<table border=1>
 		<tr>
-			<%for(int i=1; i<=10; i++){ %>
+			<%for(int i=1; i<=10; i++) { %>
 			<td><%=i %></td>
-			<%} %>
+			<% } %>
 		</tr>
 	</table>
 	<table border=1>

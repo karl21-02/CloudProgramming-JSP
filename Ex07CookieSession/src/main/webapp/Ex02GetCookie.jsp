@@ -13,10 +13,10 @@
 
 	for(Cookie c : cookies) {
 		out.print("name: " + c.getName() + "<br>");
-		out.print("value" + c.getValue() + "<br>");
+		out.print("value:" + c.getValue() + "<br>");
 	}
 %>
-
+	<a href="Ex07Cookie.jsp">test 쿠키 생성</a>
 <a href="Ex03RemoveCookie.jsp">쿠키삭제</a>
 </body>
 </html>

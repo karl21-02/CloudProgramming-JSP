@@ -16,5 +16,18 @@
 			System.out.print("Hello JSP!");
 		}
 	%>
+	
+	<%!
+		int num0 = 10000;
+	
+		public int print1() {
+			System.out.print("Hello JSP");
+			return 1;
+		}
+	
+	%>
+	
+	<%=print1() %>
+	<%print(); %>
 </body>
 </html>

@@ -11,6 +11,11 @@
 		int num1 = 20;
 		int sum = num1 + 30;
 	%>
+	<%
+		int a = 1;
+		int b = 2;
+	%>
+	a + b = <%= a + b %><br>
 	
 	<%=sum %><br>
 	<%=20+30 %><br>

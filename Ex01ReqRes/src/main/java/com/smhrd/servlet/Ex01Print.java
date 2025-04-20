@@ -18,5 +18,7 @@ public class Ex01Print extends HttpServlet {
 		// PrintWriter : 텍스트 출력 스트림(종료)
 		PrintWriter out = response.getWriter();
 		out.print("<b>Hello</b> Servlet!"); // 스트림을 통해 텍스트 출력
+		String input_text = request.getParameter("data");
+		out.print(input_text);
 	}
 }
